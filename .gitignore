@@ -1,0 +1,16 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore dataset if large
+*.csv
+
+# Ignore system files
+.DS_Store
+
+# Ignore model training cache
+*.pkl
+
+# Ignore Streamlit logs
+.streamlit/
